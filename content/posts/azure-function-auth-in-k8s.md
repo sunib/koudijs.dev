@@ -1,6 +1,7 @@
 ---
 title: "Azure functions auth in k8s"
 weight: 1
+tags: ["kubernetes","az-functions"]
 date: 2022-02-11T14:02:56+01:00
 ---
 

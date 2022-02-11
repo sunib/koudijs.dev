@@ -42,6 +42,5 @@ menu:
       weight: 20
 
 taxonomies:
-   devops: devops
    tag: tags
    series: series

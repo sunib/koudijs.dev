@@ -1,6 +1,7 @@
 ---
 title: "Auto auth"
 weight: 1
+tags: ["kubernetes"]
 date: 2022-02-11T12:07:56+01:00
 ---
 
