@@ -28,6 +28,20 @@ params:
   showtoc: false
   tocopen: false
 
+  profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    subtitle: "Welkom op mijn website"
+    imageUrl: "images/simon.jpg"
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 220 # custom size
+    imageHeight: 220 # custom size
+    buttons:
+    - name: Posts
+      url: "/posts"
+    - name: Github
+      url: "https://github.com/sunib"
+
 menu:
   main:
     - name: posts
