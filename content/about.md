@@ -3,7 +3,7 @@ title: "About"
 weight: 1
 ---
 
-## Welkom op simons blog2
+## Welkom op simons blog 42
 
 Kijk eens aan
 
