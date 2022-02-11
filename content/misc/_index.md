@@ -1,5 +1,5 @@
 ---
-title: "The k8s index"
+title: "Some misc stuff"
 weight: 1
 header_menu: true
 ---

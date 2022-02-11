@@ -1,5 +1,5 @@
 ---
-title: "Welkom"
+title: "Auto auth"
 weight: 1
 header_menu: true
 ---

@@ -1,3 +1,9 @@
+---
+title: "Azure functions auth in k8s"
+weight: 1
+header_menu: true
+---
+
 [Azure functions](https://docs.microsoft.com/en-us/azure/azure-functions/) make it very easy to run your pieces of code in Azure. The cool thing is that they also make it very easy to use your functions inside a k8s cluster.
 
 But not all stuff is supported. The functionapp resource is giving you a 'wrapper' that:
