@@ -30,12 +30,11 @@ params:
 
 menu:
   main:
-    - identifier: k8s
-      name: k8s
-      url: /k8s/
+    - name: posts
+      url: posts
       weight: 10
-    - name: devops
-      url: /devops/
+    - name: about
+      url: about
       weight: 10
     - identifier: tags
       name: tags
@@ -43,6 +42,6 @@ menu:
       weight: 20
 
 taxonomies:
-  category: categories
-  tag: tags
-  series: series
+   devops: devops
+   tag: tags
+   series: series

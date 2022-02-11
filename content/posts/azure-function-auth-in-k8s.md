@@ -1,8 +1,7 @@
 ---
 title: "Azure functions auth in k8s"
 weight: 1
-header_menu: true
-date: 2022-02-11T14:07:56+01:00
+date: 2022-02-11T14:02:56+01:00
 ---
 
 [Azure functions](https://docs.microsoft.com/en-us/azure/azure-functions/) make it very easy to run your pieces of code in Azure. The cool thing is that they also make it very easy to use your functions inside a k8s cluster.
