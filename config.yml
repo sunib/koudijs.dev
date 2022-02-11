@@ -1,3 +1,40 @@
-baseURL: http://example.org/
+baseURL: https://koudijs.dev/
 languageCode: en-us
 title: koudijs.dev
+paginate: 5
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+menu:
+  main:
+    - identifier: k8s
+      name: k8s
+      url: /k8s/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20

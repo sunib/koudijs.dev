@@ -1,6 +1,6 @@
 ## Welkom op simons blog
 
-
+Kijk eens aan
 
 You can use the [editor on GitHub](https://github.com/sunib/koudijs.dev/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
