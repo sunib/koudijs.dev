@@ -1,5 +1,5 @@
 baseURL: https://koudijs.dev/
-languageCode: en-us
+#languageCode: en-us
 title: koudijs.dev
 paginate: 5
 
@@ -34,11 +34,15 @@ menu:
       name: k8s
       url: /k8s/
       weight: 10
-    - identifier: devops
-      name: devops
+    - name: devops
       url: /devops/
       weight: 10
     - identifier: tags
       name: tags
-      url: /tags/
+      url: tags
       weight: 20
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
