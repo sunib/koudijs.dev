@@ -1,5 +1,5 @@
 baseURL: https://koudijs.dev/
-#languageCode: en-us
+languageCode: en-us
 title: koudijs.dev
 paginate: 5
 
@@ -8,7 +8,7 @@ params:
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Simon Koudijs
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -28,19 +28,34 @@ params:
   showtoc: false
   tocopen: false
 
+  # search https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 800
+    threshold: 0.6
+    minMatchCharLength: 3
+    keys: ["title", "permalink", "summary", "content"]
+
   profileMode:
     enabled: true
-    title: "<Title>" # optional default will be site title
-    subtitle: "Welkom op mijn website"
+    subtitle: "Welcome to my blog"
     imageUrl: "images/simon.jpg"
-    imageTitle: "<title of image as alt>" # optional
-    imageWidth: 220 # custom size
-    imageHeight: 220 # custom size
+    imageTitle: "Some guy"
+    imageWidth: 220
+    imageHeight: 220
     buttons:
     - name: Posts
       url: "/posts"
     - name: Github
       url: "https://github.com/sunib"
+
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
 
 menu:
   main:
@@ -49,6 +64,9 @@ menu:
       weight: 10
     - name: about
       url: about
+      weight: 10
+    - name: search
+      url: search/
       weight: 10
     - identifier: tags
       name: tags
