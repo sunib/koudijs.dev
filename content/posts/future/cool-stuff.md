@@ -1,6 +1,7 @@
 ---
 title: "coool links"
 weight: 1
+draft: true
 ---
 
 More general stuff on how your applications should look like if you want them to be usable in practice.
