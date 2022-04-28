@@ -3,6 +3,7 @@ title: "Azure functions auth in k8s"
 weight: 1
 tags: ["kubernetes","az-functions"]
 date: 2022-02-11T14:02:56+01:00
+draft: false
 ---
 
 On this [docker hub page](https://hub.docker.com/_/microsoft-azure-functions-base) you can find all functions containers. This will allow you to run your Azure Functions inside kubernetes.
