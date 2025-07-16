@@ -27,7 +27,7 @@ As I currently see it: Microsoft divided 'core' functions from hosting functions
 
 Where the last function actuall *is* supported in the container as partly supported:
 * https://github.com/Azure/azure-functions-host/issues/4147#issuecomment-477431016
-* https://martinbjorkstrom.com/posts/2020-02-12-testing-protected-azure-functions).
+* https://martinbjorkstrom.com/posts/2020-02-12-testing-protected-azure-functions.
 * https://docs.microsoft.com/en-us/azure/azure-functions/security-concepts#secret-repositories
 
 But the question is: do you want it. Having calls between functions secured with keys is actually tedious work if you have multiple functions that call each other. You can also just secure the outside-in traffic by putting [a key on your ingress]({{< ref "ingress-api-key" >}}).

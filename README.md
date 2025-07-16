@@ -5,3 +5,6 @@ Choose to download it to my downloads
 
 # Fun stuff
 https://wicki.io/posts/2021-04-goodreads-workflow-for-github-actions/
+
+scoop install main/hugo-extended
+hugo server
