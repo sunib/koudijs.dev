@@ -41,7 +41,7 @@ params:
 
   profileMode:
     enabled: true
-    subtitle: "I'm Simon: a software engineer and entrepreneur. I'm builing software products. I also do consultancy work to help companies building better software."
+    subtitle: "I'm Simon, a software engineer building my own products and helping companies build better software."
     imageUrl: "images/simon.jpg"
     imageTitle: "Some guy"
     imageWidth: 220
